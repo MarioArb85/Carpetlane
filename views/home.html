@@ -1,0 +1,17 @@
+<!-- home -->
+<div id="wrapper" class="col-lg-3 col-md-6 col-sm-9 col-xs-12 col-centered" ng-controller="homeController">
+	<!-- New_order button -->
+	<button type="button" class="btn btn-primary" ng-redirect ng-redirect-path="/new_order">
+		<span class="glyphicon glyphicon-cutlery"></span>{{new_order}}
+	</button>
+
+	<!-- Orders button -->
+	<button type="button" class="btn btn-primary" ng-redirect ng-redirect-path="/orders">
+		<span class="glyphicon glyphicon-pencil"></span>{{modify_order}}
+	</button>
+
+	<!-- Close_order button -->
+	<button type="button" class="btn btn-primary" ng-redirect ng-redirect-path="/close_order">
+		<span class="glyphicon glyphicon-gbp"></span>{{close_order}}
+	</button>
+</div>

@@ -1,0 +1,49 @@
+<!-- modify_order -->
+<div id="wrapper" class="col-lg-3 col-md-6 col-sm-9 col-xs-12 col-centered" ng-controller="modifyOrderController">
+	<h2 ng-bind="new_title"></h2>
+
+	<!-- Tables dropdown menu -->
+	<select class="form-control table" ng-model="selTable" ng-options="t.table_id as t.table_name for t in tables">
+		<option value="" ng-bind="table"></option>
+	</select>
+
+	<!-- Products dropdown menu -->
+	<select class="form-control productsList" ng-model="selProductList" ng-options="pr.product_name for pr in products" ng-change="addProduct()">
+		<option value="" ng-bind="productsList"></option>
+	</select>
+
+	<!-- Table to show the products selected -->
+	<table name="tableOrder" class="table table-striped" ng-if="productsSelected != ''">
+		<thead>
+			<tr>
+				<th ng-bind="product_name"></th>
+				<th ng-bind="product_remove"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="(listIndex,productsList) in productsSelected">
+				<td>{{productsList.product_name}}</td>
+				<td>
+					<button type="button" class="btn btn-danger" ng-click="removeProduct(listIndex)">
+						<span class="glyphicon glyphicon-remove"></span>
+					</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- Submit button -->
+	<button type="button" class="btn btn-success" ng-really-click ng-really-message="Do you want to modify the table {{selTable}} order?" ng-confirm-message="Table {{selTable}} order modified" ng-confirm-path="/">
+		<span class="glyphicon glyphicon-ok"></span>{{btn_submit}}
+	</button>
+
+	<!-- Back to orders button -->
+	<button type="button" class="btn btn-warning" ng-redirect ng-redirect-path="/orders">
+		<span class="glyphicon glyphicon-cutlery"></span>{{btn_back}}
+	</button>
+
+	<!-- Home button -->
+	<button type="button" class="btn btn-primary" ng-redirect ng-redirect-path="/">
+		<span class="glyphicon glyphicon-home"></span>{{btn_home}}
+	</button>
+</div>

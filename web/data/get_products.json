@@ -1,0 +1,122 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Scotch lamb skewers with berry chutney"
+  },
+  {
+    "product_id": 2,
+    "product_name": "Broccoli Tree Bake"
+  },
+  {
+    "product_id": 3,
+    "product_name": "Chicken Risotto"
+  },
+  {
+    "product_id": 4,
+    "product_name": "Barley Pudding"
+  },
+  {
+    "product_id": 5,
+    "product_name": "Pot of Scotch Beef with Herby Dumplings"
+  },
+  {
+    "product_id": 6,
+    "product_name": "Scotch lamb skewers with berry chutney"
+  },
+  {
+    "product_id": 7,
+    "product_name": "Baked Cod and Egg"
+  },
+  {
+    "product_id": 8,
+    "product_name": "Caramel Shortbread"
+  },
+  {
+    "product_id": 9,
+    "product_name": "Carrot Cake"
+  },
+  {
+    "product_id": 10,
+    "product_name": "Catriona's Chicken"
+  },
+  {
+    "product_id": 11,
+    "product_name": "Chicken in the Heather"
+  },
+  {
+    "product_id": 12,
+    "product_name": "Corned Beef Soufflé"
+  },
+  {
+    "product_id": 13,
+    "product_name": "Dundee Lamb Chops"
+  },
+  {
+    "product_id": 14,
+    "product_name": "Haggis Millefeuille"
+  },
+  {
+    "product_id": 15,
+    "product_name": "Grilled Salmon Balmoral"
+  },
+  {
+    "product_id": 16,
+    "product_name": "Leek and Potato Soup"
+  },
+  {
+    "product_id": 17,
+    "product_name": "Melrose Creams"
+  },
+  {
+    "product_id": 18,
+    "product_name": "Partan Bree"
+  },
+  {
+    "product_id": 19,
+    "product_name": "Pickled Onions"
+  },
+  {
+    "product_id": 20,
+    "product_name": "Potato Soup"
+  },
+  {
+    "product_id": 21,
+    "product_name": "Prawns in Whisky Cream"
+  },
+  {
+    "product_id": 22,
+    "product_name": "Raspberry Creams"
+  },
+  {
+    "product_id": 23,
+    "product_name": "Roasted Grouse"
+  },
+  {
+    "product_id": 24,
+    "product_name": "Salmon and Whisky Sauce"
+  },
+  {
+    "product_id": 25,
+    "product_name": "Scallops Salad with Perthshire Asparagus"
+  },
+  {
+    "product_id": 26,
+    "product_name": "Scotch Eggs"
+  },
+  {
+    "product_id": 27,
+    "product_name": "Scottish Beef Fillet with Wild Mushroom & Tarragon Mash"
+  },
+  {
+    "product_id": 28,
+    "product_name": "Smoked Haddock Mornay"
+  },
+  {
+    "product_id": 29,
+    "product_name": "Steak Balmoral"
+  },
+  {
+    "product_id": 30,
+    "product_name": "Steak Auld Reekie"
+  }
+]

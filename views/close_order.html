@@ -1,0 +1,14 @@
+<!-- close_order -->
+<div id="wrapper" class="col-lg-3 col-md-6 col-sm-9 col-xs-12 col-centered" ng-controller="closeOrderController">
+	<h3 ng-bind="textClose"></h3>
+
+	<!-- Buttons to mark a table as paid -->
+	<button type="button" class="btn btn-danger" ng-repeat="(orderIndex, orderList) in orders" ng-really-click="closeOrder(orderIndex, orderList.table_name)" ng-really-message="Do you want to mark the {{orderList.table_name}} order as paid?" >
+		<span class="glyphicon glyphicon-cutlery"></span>{{orderList.table_name}}
+	</button>
+	
+	<!-- Home button -->
+	<button type="button" class="btn btn-primary home" ng-redirect ng-redirect-path="/">
+		<span class="glyphicon glyphicon-home"></span>{{btn_home}}
+	</button>
+</div>
