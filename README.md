@@ -12,3 +12,5 @@ Tencologías empleadas:
   - Javascript
   - Bootstrap
   - Carga de datos con archivos JSON
+
+** Abrir en Servidor local
