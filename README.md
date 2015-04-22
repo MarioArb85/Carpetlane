@@ -1,6 +1,14 @@
 Carpetlane_Arbesu_Mario_2014
 ============================
 
-Carpet Lane test
+Prueba realizada para la empresa Carpetlane (Edimburgo) en Diciembre de 2014.
 
-If you modify or delete any order an alert will be displayed just to inform that the order was submitted or deleted, but nothing actually happens, that's because I'm not sending the data back to the server to upload the JSON files.
+Aplicación responsive para dispositivos móviles para tomar comandas en bares y restaurantes.
+
+Tencologías empleadas:
+  - HTML5
+  - CSS3
+  - AngularJS
+  - Javascript
+  - Bootstrap
+  - Carga de datos con archivos JSON
